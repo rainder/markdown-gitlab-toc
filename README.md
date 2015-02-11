@@ -21,3 +21,14 @@ $ bin/markdown-gitlab-toc.js --help
 $ markdown-gitlab-toc -o ./TOC.md -x "node_modules|TOC.md|js/components" .
 ```
 
+## Output
+
+```
+# Table of Contents
+
+* [README.md](README.md)
+* src
+        * [consumers](src/consumers/README.md)
+        * [crons](src/crons/README.md)
+        * [api](src/api/README.md)
+```
