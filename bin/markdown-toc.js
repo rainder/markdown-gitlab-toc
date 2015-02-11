@@ -8,7 +8,7 @@ var packageJson = require('./../package.json');
 commander
   .version(packageJson.version)
   .option('-o, --output <path>', 'Output to a file')
-  .option('-x, --exclude <path>', 'Exlude matches')
+  .option('-x, --exclude <path>', 'Exclude matched paths')
   .parse(process.argv);
 
 
