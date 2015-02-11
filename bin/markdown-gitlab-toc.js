@@ -13,7 +13,7 @@ commander
 
 
 co(function * () {
-  yield require('./../lib/markdown-toc')();
+  yield require('./../lib/markdown-gitlab-toc')();
 }).catch(function (err) {
   console.error(err.message);
   console.error(err.stack);

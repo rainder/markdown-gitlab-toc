@@ -1,12 +1,13 @@
 {
   "name": "markdown-gitlab-toc",
-  "version": "0.0.4",
-  "description": "",
-  "main": "bin/markdown-toc.js",
+  "version": "0.0.6",
+  "repository": "https://github.com/rainder/markdown-gitlab-toc",
+  "description": "Generates TOC for each README.md file in a project",
+  "main": "bin/markdown-gitlab-toc.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin": "bin/markdown-toc.js",
+  "bin": "bin/markdown-gitlab-toc.js",
   "author": "Andrius Skerla",
   "license": "ISC",
   "dependencies": {
@@ -14,6 +15,6 @@
     "co": "^4.3.1",
     "commander": "^2.6.0",
     "glob": "^4.3.5",
-    "object-deep": "0.0.5"
+    "object-deep": "^0.0.5"
   }
 }
