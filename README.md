@@ -1,4 +1,4 @@
-## Usage
+## Description
 
 ```sh
 $ bin/markdown-gitlab-toc.js --help
@@ -12,6 +12,8 @@ $ bin/markdown-gitlab-toc.js --help
     -o, --output <path>   Output to a file
     -x, --exclude <path>  Exclude matched paths
 ```
+
+## Usage
 
 ```sh
 $ markdown-gitlab-toc -o ./TOC.md -x "node_modules|TOC.md|js/components" .
