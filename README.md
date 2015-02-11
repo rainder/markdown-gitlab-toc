@@ -1,9 +1,9 @@
 ## Usage
 
 ```sh
-$ bin/markdown-toc.js --help
+$ bin/markdown-gitlab-toc.js --help
 
-  Usage: markdown-toc [options]
+  Usage: markdown-gitlab-toc [options]
 
   Options:
 
