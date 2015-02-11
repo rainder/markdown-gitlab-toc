@@ -6,6 +6,7 @@ var co = require('co');
 var packageJson = require('./../package.json');
 
 commander
+  .usage('[options] <paths ...>')
   .version(packageJson.version)
   .option('-o, --output <path>', 'Output to a file')
   .option('-x, --exclude <path>', 'Exclude matched paths')

@@ -5,7 +5,7 @@
 ```sh
 $ bin/markdown-gitlab-toc.js --help
 
-  Usage: markdown-gitlab-toc [options]
+  Usage: markdown-gitlab-toc [options] <paths ...>
 
   Options:
 
