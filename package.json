@@ -1,0 +1,19 @@
+{
+  "name": "markdown-gitlab-toc",
+  "version": "0.0.3",
+  "description": "",
+  "main": "bin/markdown-toc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "bin/markdown-toc.js",
+  "author": "Andrius Skerla",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^2.9.8",
+    "co": "^4.3.1",
+    "commander": "^2.6.0",
+    "glob": "^4.3.5",
+    "object-deep": "0.0.5"
+  }
+}
