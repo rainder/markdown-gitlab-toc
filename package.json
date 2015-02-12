@@ -1,6 +1,6 @@
 {
   "name": "markdown-gitlab-toc",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "repository": "https://github.com/rainder/markdown-gitlab-toc",
   "description": "Generates TOC for each README.md file in a project",
   "main": "bin/markdown-gitlab-toc.js",
